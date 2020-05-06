@@ -1,17 +1,17 @@
-* {
-    font-family: Helvetica, sans-serif;
-}
 
-/* body {
+ * {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
-} */
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+} 
 
 thead {
     background-color: rgb(149, 197, 126);
@@ -22,14 +22,15 @@ td {
     color: rgb(247, 185, 92);
 }
 
+input, #addskill {
+    border-color: rgb(149, 197, 126);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(149, 197, 126);
+}
+
 .remove {
     background-color: rgb(220, 103, 104);
     color: white;
     margin-right: 5px;
-}
-
-input {
-    border-color: rgb(149, 197, 126);
-    border-style: solid;
-    border-width: 3px;
 }
